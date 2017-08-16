@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.3.0"></a>
+# 4.3.0 (2017-08-16)
+
+
+### ☑️ Documentation
+
+* **Miscellaneous**: Adjusted documentation ([79aaae9](https://github.com/sportheroes/bk-standard-version/commit/79aaae9))
+
+### ✅ Features
+
+* **Miscellaneous**: Basic convention files ([0c3d81d](https://github.com/sportheroes/bk-standard-version/commit/0c3d81d))
+
+### 🔄 Notable changes
+
+* **Miscellaneous**: Up-to-date dependencies ([0ad75f2](https://github.com/sportheroes/bk-standard-version/commit/0ad75f2))
+
+
+
 <a name="4.2.0"></a>
 # [4.2.0](https://github.com/conventional-changelog/standard-version/compare/v4.1.0...v4.2.0) (2017-06-12)
 
