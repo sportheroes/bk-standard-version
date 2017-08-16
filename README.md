@@ -1,23 +1,15 @@
 # Standard Version
 
-[![Build Status](https://travis-ci.org/conventional-changelog/standard-version.svg?branch=master)](https://travis-ci.org/conventional-changelog/standard-version)
-[![NPM version](https://img.shields.io/npm/v/standard-version.svg)](https://www.npmjs.com/package/standard-version)
-[![Coverage Status](https://coveralls.io/repos/conventional-changelog/standard-version/badge.svg?branch=)](https://coveralls.io/r/conventional-changelog/standard-version?branch=master)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![community slack](http://devtoolscommunity.herokuapp.com/badge.svg)](http://devtoolscommunity.herokuapp.com)
-
-_Having problems? want to contribute? join our [community slack](http://devtoolscommunity.herokuapp.com)_.
-
 > stop using `npm version`, use `standard-version` it rocks!
 
-Automatic versioning and CHANGELOG generation, using GitHub's squash button and
+Automatic versioning, CHANGELOG generation, and
 [conventional commit messages](https://conventionalcommits.org).
 
-_how it works:_
+Based on [bk-conventional-changelog](https://github.com/sportheroes/bk-conventional-changelog) and [bk-conventional-recommended-bump](https://github.com/sportheroes/bk-conventional-recommended-bump).
 
-1. when you land commits on your `master` branch, select the _Squash and Merge_ option.
-2. add a title and body that follows the [Conventional Commits Specification](https://conventionalcommits.org).
-3. when you're ready to release to npm:
+## How it works
+
+When you're ready to release to npm:
   1. `git checkout master; git pull origin master`
   2. run `standard-version`
   3. `git push --follow-tags origin master; npm publish`
@@ -25,7 +17,7 @@ _how it works:_
 `standard-version` does the following:
 
 1. bumps the version in _package.json/bower.json_ (based on your commit history)
-2. uses [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) to update _CHANGELOG.md_
+2. uses [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) to update _CHANGELOG.md_ using [SportHeroesGroup's preset](https://github.com/sportheroes/bk-conventional-changelog)
 3. commits _package.json (et al.)_ and _CHANGELOG.md_
 4. tags a new release
 
@@ -249,19 +241,19 @@ standardVersion({
 _patches:_
 
 ```sh
-git commit -a -m "fix(parsing): fixed a bug in our parser"
+git commit -a -m "✴️ [FIX] (parsing) fixed a bug in our parser"
 ```
 
 _features:_
 
 ```sh
-git commit -a -m "feat(parser): we now have a parser \o/"
+git commit -a -m "✅ [ADD] (parser) we now have a parser \o/"
 ```
 
 _breaking changes:_
 
 ```sh
-git commit -a -m "feat(new-parser): introduces a new parsing library
+git commit -a -m "✅ [ADD] (new-parser) introduces a new parsing library
 BREAKING CHANGE: new library does not support foo-construct"
 ```
 
@@ -270,7 +262,9 @@ _other changes:_
 You decide, e.g., docs, chore, etc.
 
 ```sh
-git commit -a -m "docs: fixed up the docs a bit"
+git commit -a -m "☑️ [DOC] fixed up the docs a bit"
+git commit -a -m "🔄 [MOD] (controllers) Changed implementation"
+git commit -a -m "🔀 [TEST] (services) Adjusted MemoryRange unit tests"
 ```
 
 _but wait, there's more!_
@@ -285,29 +279,3 @@ Tell your users that you adhere to the Conventional Commits specification:
 ```markdown
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 ```
-
-## FAQ
-
-### How is `standard-version` different from `semantic-release`?
-
-[`semantic-release`](https://github.com/semantic-release/semantic-release) is a fully automated library/system for versioning, changelog generation, git tagging, and publishing to the npm registry.
-
-`standard-version` is different because it handles the versioning, changelog generation, and git tagging for you **without** automatic pushing (to GitHub) or publishing (to an npm registry). Use of `standard-version` only affects your local git repo - it doesn't affect remote resources at all. After you run `standard-version`, you still have to ability to review things and correct mistakes if you want to.
-
-They are both based on the same foundation of structured commit messages (using [Angular format](https://github.com/bcoe/conventional-changelog-standard/blob/master/convention.md)), but `standard-version` is a good choice for folks who are not yet comfortable letting publishes go out automatically. In this way, you can view `standard-version` as an incremental step to adopting `semantic-release`.
-
-We think they are both fantastic tools, and we encourage folks to use `semantic-release` instead of `standard-version` if it makes sense for them.
-
-### Should I always squash commits when merging PRs?
-
-The instructions to squash commits when merging pull requests assumes that **one PR equals, at most, one feature or fix**.
-
-If you have multiple features or fixes landing in a single PR and each commit uses a structured message, then you can do a standard merge when accepting the PR. This will preserve the commit history from your branch after the merge.
-
-Although this will allow each commit to be included as separate entries in your CHANGELOG, the entries will **not** be able to reference the PR that pulled the changes in because the preserved commit messages do not include the PR number.
-
-For this reason, we recommend keeping the scope of each PR to one general feature or fix. In practice, this allows you to use unstructured commit messages when committing each little change and then squash them into a single commit with a structured message (referencing the PR number) once they have been reviewed and accepted.
-
-## License
-
-ISC
