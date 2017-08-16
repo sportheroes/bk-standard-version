@@ -1,0 +1,60 @@
+{
+  "name": "@sportheroes/bk-standard-version",
+  "version": "4.2.0",
+  "description": "Replacement for `npm version` with automatic CHANGELOG generation",
+  "bin": "bin/cli.js",
+  "scripts": {
+    "pretest": "standard",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc mocha --timeout=40000 test.js",
+    "release": "bin/cli.js"
+  },
+  "nyc": {
+    "exclude": [
+      "tmp/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sportheroes/bk-standard-version.git"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "recommended",
+    "changelog",
+    "automatic",
+    "workflow",
+    "version",
+    "SportHeroesGroup",
+    "standard"
+  ],
+  "author": "Romain Gagnaire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sportheroes/bk-standard-version/issues"
+  },
+  "homepage": "https://github.com/sportheroes/bk-standard-version#readme",
+  "dependencies": {
+    "@sportheroes/bk-conventional-recommended-bump": "^1.1.1",
+    "@sportheroes/bk-conventional-changelog": "^1.0.1",
+    "chalk": "^1.1.3",
+    "conventional-changelog": "^1.1.0",
+    "figures": "^1.5.0",
+    "fs-access": "^1.0.0",
+    "semver": "^5.1.0",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "mocha": "^3.1.0",
+    "mock-git": "^1.0.2",
+    "mockery": "^2.0.0",
+    "nyc": "^11.0.2",
+    "shelljs": "^0.7.3",
+    "standard": "^10.0.0"
+  }
+}
