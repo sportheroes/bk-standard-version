@@ -1,12 +1,25 @@
 const path = require('path')
 const printError = require('./lib/print-error')
 
+const gitBranch = require('git-branch')
 const bump = require('./lib/lifecycles/bump')
 const changelog = require('./lib/lifecycles/changelog')
 const commit = require('./lib/lifecycles/commit')
 const tag = require('./lib/lifecycles/tag')
 
+const ALLOWED_BRANCHES = [ 'master' ];
+
 module.exports = function standardVersion (argv) {
+  const branch = gitBranch.sync();
+
+  if (!ALLOWED_BRANCHES.includes(branch)) {
+    const notAllowedBranch = new Error(`This command is only allowed on the following branches: ${ALLOWED_BRANCHES.join(',')}`);
+    
+    printError({}, notAllowedBranch);
+
+    return Promise.reject(notAllowedBranch);
+  }
+
   var pkgPath = path.resolve(process.cwd(), './package.json')
   var pkg = require(pkgPath)
   var newVersion = pkg.version
