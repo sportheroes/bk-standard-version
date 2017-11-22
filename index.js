@@ -10,7 +10,17 @@ const tag = require('./lib/lifecycles/tag')
 const ALLOWED_BRANCHES = [ 'master' ];
 
 module.exports = function standardVersion (argv) {
-  const branch = gitBranch.sync();
+  let branch;
+
+  try {
+    branch = gitBranch.sync();
+  } catch(err) {
+    const noBranch = new Error(`This folder does not have an initialized Git repository`);
+
+    printError({}, noBranch);
+    
+    return Promise.reject(noBranch);
+  }
 
   if (!ALLOWED_BRANCHES.includes(branch)) {
     const notAllowedBranch = new Error(`This command is only allowed on the following branches: ${ALLOWED_BRANCHES.join(',')}`);
