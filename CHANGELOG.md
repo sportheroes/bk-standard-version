@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.11.0"></a>
+# [4.11.0](https://github.com/sportheroes/bk-standard-version/compare/v4.10.0...v4.11.0) (2018-05-23)
+
+
+### ✅ Features
+
+* **Commit**: Added `[ci skip]` in commit description ([be6c393](https://github.com/sportheroes/bk-standard-version/commit/be6c393) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+
+### 🔄 Notable changes
+
+* **Tag**: Changed prompt separator from `;` to `&&` ([ecf78bb](https://github.com/sportheroes/bk-standard-version/commit/ecf78bb) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+
+
+
 <a name="4.10.0"></a>
 # [4.10.0](https://github.com/sportheroes/bk-standard-version/compare/v4.9.0...v4.10.0) (2018-04-19)
 
