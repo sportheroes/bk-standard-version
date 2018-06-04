@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.12.0"></a>
+# [4.12.0](https://github.com/sportheroes/bk-standard-version/compare/v4.11.0...v4.12.0) (2018-06-04)
+
+
+### ✅ Features
+
+* **Dependencies**: Bumped bk-conventional-changelog to v1.6.0 ([88a8540](https://github.com/sportheroes/bk-standard-version/commit/88a8540) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+
+### 🔄 Notable changes
+
+* **Tag**: Added space in prompt separator ([17372c3](https://github.com/sportheroes/bk-standard-version/commit/17372c3) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+
+
+
 <a name="4.11.0"></a>
 # [4.11.0](https://github.com/sportheroes/bk-standard-version/compare/v4.10.0...v4.11.0) (2018-05-23)
 
