@@ -39,8 +39,8 @@
   "homepage": "https://github.com/sportheroes/bk-standard-version#readme",
   "dependencies": {
     "@sportheroes/bk-conventional-recommended-bump": "1.1.2",
-    "@sportheroes/bk-conventional-changelog": "1.5.2",
-    "chalk": "2.4.0",
+    "@sportheroes/bk-conventional-changelog": "1.6.0",
+    "chalk": "2.4.1",
     "conventional-changelog": "1.1.12",
     "git-branch": "1.0.0",
     "figures": "2.0.0",
