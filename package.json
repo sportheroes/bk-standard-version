@@ -38,15 +38,15 @@
   },
   "homepage": "https://github.com/sportheroes/bk-standard-version#readme",
   "dependencies": {
-    "@sportheroes/bk-conventional-recommended-bump": "1.1.2",
-    "@sportheroes/bk-conventional-changelog": "1.6.0",
+    "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
+    "@sportheroes/bk-conventional-changelog": "1.8.0",
     "chalk": "2.4.1",
-    "conventional-changelog": "1.1.12",
-    "git-branch": "1.0.0",
+    "conventional-changelog": "2.0.1",
+    "git-branch": "2.0.1",
     "figures": "2.0.0",
     "fs-access": "1.0.1",
     "semver": "5.5.0",
-    "yargs": "10.0.3"
+    "yargs": "12.0.1"
   },
   "devDependencies": {
     "chai": "4.1.2",
@@ -54,8 +54,8 @@
     "mocha": "3.5.3",
     "mock-git": "2.0.0",
     "mockery": "2.1.0",
-    "nyc": "11.3.0",
-    "shelljs": "0.7.8",
+    "nyc": "12.0.2",
+    "shelljs": "0.8.2",
     "standard": "10.0.3"
   }
 }
