@@ -1,6 +1,6 @@
 {
   "name": "@sportheroes/bk-standard-version",
-  "version": "4.12.0",
+  "version": "4.13.0",
   "description": "Replacement for `npm version` with automatic CHANGELOG generation",
   "bin": "bin/cli.js",
   "scripts": {
