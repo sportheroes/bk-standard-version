@@ -72,6 +72,11 @@ module.exports = require('yargs')
     default: defaults.dryRun,
     describe: 'See the commands that running standard-version would run'
   })
+  .option('resetChangelog', {
+    type: 'boolean',
+    default: defaults.resetChangelog,
+    describe: 'Recreates the changelog from scratch'
+  })
   .check((argv) => {
     if (typeof argv.scripts !== 'object' || Array.isArray(argv.scripts)) {
       throw Error('scripts must be an object')

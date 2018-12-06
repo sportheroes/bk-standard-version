@@ -1,13 +1,14 @@
 {
+  "commitAll": false,
+  "dryRun": false,
+  "firstRelease": false,
   "infile": "CHANGELOG.md",
   "message": "⏩ [PUB] (release) %s",
-  "firstRelease": false,
-  "sign": false,
   "noVerify": false,
-  "commitAll": false,
-  "silent": false,
-  "tagPrefix": "v",
+  "resetChangelog": false,
   "scripts": {},
+  "sign": false,
+  "silent": false,
   "skip": {},
-  "dryRun": false
+  "tagPrefix": "v"
 }

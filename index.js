@@ -37,19 +37,14 @@ module.exports = function standardVersion (argv) {
   var defaults = require('./defaults')
   var args = Object.assign({}, defaults, argv)
 
+  // Possible thanks to https://github.com/conventional-changelog/conventional-changelog/pull/350
   if (args.resetChangelog) {
-    // Requires https://github.com/conventional-changelog/conventional-changelog/pull/350 to be merged
-    const hasBeenMerged = false;
-
-    if (!hasBeenMerged) {
-      const err = new Error('Unable to reset changelog as conventional-changelog is not ready for that yet');
-
-      printError(args, err.message)
-      throw err;
-    }
-
     return Promise.resolve()
-      .then(() => resetChangelog(args));
+      .then(() => resetChangelog(args))
+      .catch((err) => {
+        printError(args, err.message)
+        throw err
+      });
   }
 
   return Promise.resolve()
@@ -71,5 +66,5 @@ module.exports = function standardVersion (argv) {
     .catch((err) => {
       printError(args, err.message)
       throw err
-    })
+    });
 }
