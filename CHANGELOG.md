@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.14.0"></a>
+# [4.14.0](https://github.com/sportheroes/bk-standard-version/compare/v4.13.0...v4.14.0) (2018-12-06)
+
+
+### ✅ Features
+
+* **Core**: Enabled ability to reset changelog ([f2eebfa](https://github.com/sportheroes/bk-standard-version/commit/f2eebfa) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.8.1 ([42aa3d9](https://github.com/sportheroes/bk-standard-version/commit/42aa3d9) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+
+
+
 <a name="4.13.0"></a>
 # [4.13.0](https://github.com/sportheroes/bk-standard-version/compare/v4.12.0...v4.13.0) (2018-07-09)
 
