@@ -8,8 +8,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Core**: Enabled ability to reset changelog ([f2eebfa](https://github.com/sportheroes/bk-standard-version/commit/f2eebfa) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
-* **Dependencies**: Bumped bk-conventional-changelog to v1.8.1 ([42aa3d9](https://github.com/sportheroes/bk-standard-version/commit/42aa3d9) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Core**: Enabled ability to reset changelog ([f2eebfa](https://github.com/sportheroes/bk-standard-version/commit/f2eebfa) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.8.1 ([42aa3d9](https://github.com/sportheroes/bk-standard-version/commit/42aa3d9) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -19,8 +19,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.8.0 ([d845894](https://github.com/sportheroes/bk-standard-version/commit/d845894) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
-* **Dependencies**: Prepare to add ability to reset changelog ([f130ab7](https://github.com/sportheroes/bk-standard-version/commit/f130ab7) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.8.0 ([d845894](https://github.com/sportheroes/bk-standard-version/commit/d845894) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+* **Dependencies**: Prepare to add ability to reset changelog ([f130ab7](https://github.com/sportheroes/bk-standard-version/commit/f130ab7) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -30,11 +30,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.6.0 ([88a8540](https://github.com/sportheroes/bk-standard-version/commit/88a8540) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.6.0 ([88a8540](https://github.com/sportheroes/bk-standard-version/commit/88a8540) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 ### 🔄 Notable changes
 
-* **Tag**: Added space in prompt separator ([17372c3](https://github.com/sportheroes/bk-standard-version/commit/17372c3) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Tag**: Added space in prompt separator ([17372c3](https://github.com/sportheroes/bk-standard-version/commit/17372c3) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -44,11 +44,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Commit**: Added `[ci skip]` in commit description ([be6c393](https://github.com/sportheroes/bk-standard-version/commit/be6c393) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Commit**: Added `[ci skip]` in commit description ([be6c393](https://github.com/sportheroes/bk-standard-version/commit/be6c393) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 ### 🔄 Notable changes
 
-* **Tag**: Changed prompt separator from `;` to `&&` ([ecf78bb](https://github.com/sportheroes/bk-standard-version/commit/ecf78bb) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Tag**: Changed prompt separator from `;` to `&&` ([ecf78bb](https://github.com/sportheroes/bk-standard-version/commit/ecf78bb) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -58,7 +58,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.5.2 ([54a20fe](https://github.com/sportheroes/bk-standard-version/commit/54a20fe) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.5.2 ([54a20fe](https://github.com/sportheroes/bk-standard-version/commit/54a20fe) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -68,7 +68,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.5.1 ([04f55e1](https://github.com/sportheroes/bk-standard-version/commit/04f55e1) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.5.1 ([04f55e1](https://github.com/sportheroes/bk-standard-version/commit/04f55e1) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -78,7 +78,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.4.1 ([c3c1bf9](https://github.com/sportheroes/bk-standard-version/commit/c3c1bf9) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.4.1 ([c3c1bf9](https://github.com/sportheroes/bk-standard-version/commit/c3c1bf9) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -88,7 +88,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.4.0 ([fe762fa](https://github.com/sportheroes/bk-standard-version/commit/fe762fa) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.4.0 ([fe762fa](https://github.com/sportheroes/bk-standard-version/commit/fe762fa) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -98,7 +98,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 🔄 Notable changes
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.3.2 ([51f5fe4](https://github.com/sportheroes/bk-standard-version/commit/51f5fe4) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.3.2 ([51f5fe4](https://github.com/sportheroes/bk-standard-version/commit/51f5fe4) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -108,9 +108,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Core**: Command will now reject if not run on appropriate branch ([dfd0bd7](https://github.com/sportheroes/bk-standard-version/commit/dfd0bd7) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
-* **Core**: Command will now reject if run on unitialized folder ([5ca6190](https://github.com/sportheroes/bk-standard-version/commit/5ca6190) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
-* **Dependencies**: Added git-branch v1.0.0 ([55acf81](https://github.com/sportheroes/bk-standard-version/commit/55acf81) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Core**: Command will now reject if not run on appropriate branch ([dfd0bd7](https://github.com/sportheroes/bk-standard-version/commit/dfd0bd7) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+* **Core**: Command will now reject if run on unitialized folder ([5ca6190](https://github.com/sportheroes/bk-standard-version/commit/5ca6190) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+* **Dependencies**: Added git-branch v1.0.0 ([55acf81](https://github.com/sportheroes/bk-standard-version/commit/55acf81) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -120,7 +120,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 🔄 Notable changes
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.3.1 ([5afa7bd](https://github.com/sportheroes/bk-standard-version/commit/5afa7bd) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.3.1 ([5afa7bd](https://github.com/sportheroes/bk-standard-version/commit/5afa7bd) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -130,7 +130,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Changelog**: bk-conventional-changelog v1.3.0 for github username ([1d5fc70](https://github.com/sportheroes/bk-standard-version/commit/1d5fc70) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Changelog**: bk-conventional-changelog v1.3.0 for github username ([1d5fc70](https://github.com/sportheroes/bk-standard-version/commit/1d5fc70) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -140,7 +140,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 🔄 Notable changes
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.2.1 ([600ba94](https://github.com/sportheroes/bk-standard-version/commit/600ba94) - [JoeTheFkingFrypan](https://github.com/JoeTheFkingFrypan))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.2.1 ([600ba94](https://github.com/sportheroes/bk-standard-version/commit/600ba94) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -150,12 +150,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ✅ Features
 
-* **Changelog**: Activated custom commit format from preset ([a0131c4](https://github.com/sportheroes/bk-standard-version/commit/a0131c4))
+* **Changelog**: Activated custom commit format from preset ([a0131c4](https://github.com/sportheroes/bk-standard-version/commit/a0131c4) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 ### 🔄 Notable changes
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.2.0 ([26853a5](https://github.com/sportheroes/bk-standard-version/commit/26853a5))
-* **Dependencies**: Up-to-date dev dependencies ([ad06f60](https://github.com/sportheroes/bk-standard-version/commit/ad06f60))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.2.0 ([26853a5](https://github.com/sportheroes/bk-standard-version/commit/26853a5) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+* **Dependencies**: Up-to-date dev dependencies ([ad06f60](https://github.com/sportheroes/bk-standard-version/commit/ad06f60) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
@@ -165,28 +165,26 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 🔄 Notable changes
 
-* **Dependencies**: Bumped bk-conventional-changelog to v1.0.2 ([8dc9126](https://github.com/sportheroes/bk-standard-version/commit/8dc9126))
-* **Dependencies**: Bumped bk-conventional-recommended-bump to 1.1.2 ([e062424](https://github.com/sportheroes/bk-standard-version/commit/e062424))
+* **Dependencies**: Bumped bk-conventional-changelog to v1.0.2 ([8dc9126](https://github.com/sportheroes/bk-standard-version/commit/8dc9126) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+* **Dependencies**: Bumped bk-conventional-recommended-bump to 1.1.2 ([e062424](https://github.com/sportheroes/bk-standard-version/commit/e062424) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 
 
 <a name="4.3.0"></a>
-# 4.3.0 (2017-08-16)
+# [4.3.0](https://github.com/sportheroes/bk-standard-version/compare/0c3d81d...v4.3.0) (2017-08-16)
 
 
 ### ☑️ Documentation
 
-* **Miscellaneous**: Adjusted documentation ([79aaae9](https://github.com/sportheroes/bk-standard-version/commit/79aaae9))
+* **Miscellaneous**: Adjusted documentation ([79aaae9](https://github.com/sportheroes/bk-standard-version/commit/79aaae9) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 ### ✅ Features
 
-* **Miscellaneous**: Basic convention files ([0c3d81d](https://github.com/sportheroes/bk-standard-version/commit/0c3d81d))
+* **Miscellaneous**: Basic convention files ([0c3d81d](https://github.com/sportheroes/bk-standard-version/commit/0c3d81d) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 ### 🔄 Notable changes
 
-* **Miscellaneous**: Up-to-date dependencies ([0ad75f2](https://github.com/sportheroes/bk-standard-version/commit/0ad75f2))
-
-
+* **Miscellaneous**: Up-to-date dependencies ([0ad75f2](https://github.com/sportheroes/bk-standard-version/commit/0ad75f2) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
 
 <a name="4.2.0"></a>
 # [4.2.0](https://github.com/conventional-changelog/standard-version/compare/v4.1.0...v4.2.0) (2017-06-12)
