@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/sportheroes/bk-standard-version/compare/v4.14.0...v5.0.0) (2019-02-22)
+
+
+### ☑️ Documentation
+
+* **Changelog**: Recreated file from scratch ([174ea6d](https://github.com/sportheroes/bk-standard-version/commit/174ea6d) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+
+
+
 <a name="4.14.0"></a>
 # [4.14.0](https://github.com/sportheroes/bk-standard-version/compare/v4.13.0...v4.14.0) (2018-12-06)
 

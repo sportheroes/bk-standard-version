@@ -1,6 +1,6 @@
 {
   "name": "@sportheroes/bk-standard-version",
-  "version": "4.14.0",
+  "version": "5.0.0",
   "description": "Replacement for `npm version` with automatic CHANGELOG generation",
   "bin": "bin/cli.js",
   "scripts": {
@@ -31,15 +31,18 @@
     "SportHeroesGroup",
     "standard"
   ],
-  "author": "Romain Gagnaire",
+  "author": "Romain Gagnaire <romain.gagnaire.pro@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sportheroes/bk-standard-version/issues"
   },
   "homepage": "https://github.com/sportheroes/bk-standard-version#readme",
+  "peerDependencies": {
+    "config": ">=3.X <4.X"
+  },
   "dependencies": {
     "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
-    "@sportheroes/bk-conventional-changelog": "1.8.1",
+    "@sportheroes/bk-conventional-changelog": "2.0.0",
     "chalk": "2.4.1",
     "conventional-changelog": "2.0.1",
     "git-branch": "2.0.1",
@@ -50,6 +53,7 @@
   },
   "devDependencies": {
     "chai": "4.1.2",
+    "config": ">=3.X <4.X",
     "coveralls": "2.13.1",
     "mocha": "3.5.3",
     "mock-git": "2.0.0",
