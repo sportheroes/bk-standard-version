@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
-    "@sportheroes/bk-conventional-changelog": "2.0.0",
+    "@sportheroes/bk-conventional-changelog": "2.0.1",
     "chalk": "2.4.1",
     "conventional-changelog": "2.0.1",
     "git-branch": "2.0.1",
