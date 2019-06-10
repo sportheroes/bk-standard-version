@@ -37,29 +37,26 @@
     "url": "https://github.com/sportheroes/bk-standard-version/issues"
   },
   "homepage": "https://github.com/sportheroes/bk-standard-version#readme",
-  "peerDependencies": {
-    "config": ">=3.X <4.X"
-  },
   "dependencies": {
-    "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
     "@sportheroes/bk-conventional-changelog": "2.0.1",
-    "chalk": "2.4.1",
+    "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
+    "chalk": "2.4.2",
+    "config": "^3.1.0",
     "conventional-changelog": "2.0.1",
-    "git-branch": "2.0.1",
     "figures": "2.0.0",
     "fs-access": "1.0.1",
+    "git-branch": "2.0.1",
     "semver": "5.6.0",
     "yargs": "12.0.5"
   },
   "devDependencies": {
-    "chai": "4.1.2",
-    "config": ">=3.X <4.X",
-    "coveralls": "2.13.1",
-    "mocha": "3.5.3",
+    "chai": "4.2.0",
+    "coveralls": "3.0.4",
+    "mocha": "6.1.4",
     "mock-git": "2.0.0",
     "mockery": "2.1.0",
-    "nyc": "12.0.2",
-    "shelljs": "0.8.2",
-    "standard": "10.0.3"
+    "nyc": "14.1.1",
+    "shelljs": "0.8.3",
+    "standard": "12.0.1"
   }
 }
