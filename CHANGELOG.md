@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.3"></a>
+## [5.0.3](https://github.com/sportheroes/bk-standard-version/compare/v5.0.1...v5.0.3) (2019-09-05)
+
+
+### ⏩ Bump version
+
+* **Security**: Bump lodash from 4.17.11 to 4.17.15 ([0500050](https://github.com/sportheroes/bk-standard-version/commit/0500050)))
+* **Security**: Bump eslint-utils from 1.3.1 to 1.4.2 ([11b2e7d](https://github.com/sportheroes/bk-standard-version/commit/11b2e7d)))
+
+### 🔄 Notable changes
+
+* **Dependencies**: Update packages dependencies ([10a6bf8](https://github.com/sportheroes/bk-standard-version/commit/10a6bf8)))
+* **Dependencies**: Upgrade dependencies ([9d7523f](https://github.com/sportheroes/bk-standard-version/commit/9d7523f)))
+
+
+
 <a name="5.0.1"></a>
 ## [5.0.1](https://github.com/sportheroes/bk-standard-version/compare/v5.0.0...v5.0.1) (2019-06-06)
 
