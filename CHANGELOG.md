@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/sportheroes/bk-standard-version/compare/v5.0.3...v5.1.0) (2020-02-18)
+
+
+### ⏩ Bump version
+
+* **Security**: Bump handlebars from 4.1.2 to 4.5.3 ([fa5b5d6](https://github.com/sportheroes/bk-standard-version/commit/fa5b5d6)))
+* **Security**: Bump lodash.template from 4.4.0 to 4.5.0 ([3634832](https://github.com/sportheroes/bk-standard-version/commit/3634832)))
+
+### ✅ Features
+
+* **Miscellaneous**: Create prerelease from other branch ([f7d79af](https://github.com/sportheroes/bk-standard-version/commit/f7d79af)))
+
+
+
 <a name="5.0.3"></a>
 ## [5.0.3](https://github.com/sportheroes/bk-standard-version/compare/v5.0.1...v5.0.3) (2019-09-05)
 
