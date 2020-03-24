@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.2.0"></a>
+# [5.2.0](https://github.com/sportheroes/bk-standard-version/compare/v5.1.0...v5.2.0) (2020-03-24)
+
+
+### ✅ Features
+
+* **Miscellaneous**: Skip changelog during prerelease ([d3da294](https://github.com/sportheroes/bk-standard-version/commit/d3da294)))
+
+
+
 <a name="5.1.0"></a>
 # [5.1.0](https://github.com/sportheroes/bk-standard-version/compare/v5.0.3...v5.1.0) (2020-02-18)
 
