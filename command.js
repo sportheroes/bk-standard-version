@@ -77,6 +77,11 @@ module.exports = require('yargs')
     default: defaults.resetChangelog,
     describe: 'Recreates the changelog from scratch'
   })
+  .option('overwriteBranchRule', {
+    type: 'boolean',
+    default: defaults.overwriteBranchRule,
+    describe: 'Overwrite branch restriction rule'
+  })
   .check((argv) => {
     if (typeof argv.scripts !== 'object' || Array.isArray(argv.scripts)) {
       throw Error('scripts must be an object')

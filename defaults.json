@@ -10,5 +10,6 @@
   "sign": false,
   "silent": false,
   "skip": {},
-  "tagPrefix": "v"
+  "tagPrefix": "v",
+  "overwriteBranchRule":false
 }

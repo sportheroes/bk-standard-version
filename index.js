@@ -12,7 +12,7 @@ const ALLOWED_BRANCHES = [ 'master' ];
 
 module.exports = function standardVersion (argv) {
   let branch;
-  const { prerelease = null } = argv
+  const { prerelease = null, overwriteBranchRule } = argv
 
   try {
     branch = gitBranch.sync();
@@ -24,7 +24,7 @@ module.exports = function standardVersion (argv) {
     return Promise.reject(noBranch);
   }
 
-  if (!ALLOWED_BRANCHES.includes(branch) && !prerelease) {
+  if (!overwriteBranchRule && !ALLOWED_BRANCHES.includes(branch) && !prerelease) {
     const notAllowedBranch = new Error(`This command is only allowed on the following branches: ${ALLOWED_BRANCHES.join(',')}`);
 
     printError({}, notAllowedBranch);
