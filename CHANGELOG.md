@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.2.2"></a>
+## [5.2.2](https://github.com/sportheroes/bk-standard-version/compare/v5.2.1...v5.2.2) (2023-06-27)
+
+
+### 🔄 Notable changes
+
+* **Config**: update branch rules for app releases (#10) ([bd64987](https://github.com/sportheroes/bk-standard-version/commit/bd64987))), closes [#10](https://github.com/sportheroes/bk-standard-version/issues/10)
+
+
+
 <a name="5.2.1"></a>
 ## [5.2.1](https://github.com/sportheroes/bk-standard-version/compare/v5.2.0...v5.2.1) (2021-07-28)
 
