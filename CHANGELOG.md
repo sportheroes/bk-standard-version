@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 5.3.0 (2024-08-29)
+
+* ✅ [ADD] Add 'main' to branches allowed for release (#21) ([558197f](https://github.com/sportheroes/bk-standard-version/commit/558197f)), closes [#21](https://github.com/sportheroes/bk-standard-version/issues/21)
+* ✴️ [FIX] pass an object to conventionalChangelog, and not a function. (#23) ([99c98a6](https://github.com/sportheroes/bk-standard-version/commit/99c98a6)), closes [#23](https://github.com/sportheroes/bk-standard-version/issues/23)
+* 🔄 [MOD] downgrade depndencies that were upgraded to an ESM version (#22) ([5254f61](https://github.com/sportheroes/bk-standard-version/commit/5254f61)), closes [#22](https://github.com/sportheroes/bk-standard-version/issues/22)
+* 🔄 [MOD] update depndencies (#20) ([e1669fb](https://github.com/sportheroes/bk-standard-version/commit/e1669fb)), closes [#20](https://github.com/sportheroes/bk-standard-version/issues/20)
+
+
+
 <a name="5.2.2"></a>
 ## [5.2.2](https://github.com/sportheroes/bk-standard-version/compare/v5.2.1...v5.2.2) (2023-06-27)
 
