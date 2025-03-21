@@ -2,9 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## <small>5.3.1 (2024-09-04)</small>
+## <small>5.3.2 (2025-03-21)</small>
 
-* Bump semver from 5.6.0 to 5.7.2 in the npm_and_yarn group (#24) ([df4654e](https://github.com/sportheroes/bk-standard-version/commit/df4654e)), closes [#24](https://github.com/sportheroes/bk-standard-version/issues/24)
+* 🔄 [MOD] Bump Node 22 (#29) ([c29a707](https://github.com/sportheroes/bk-standard-version/commit/c29a707)), closes [#29](https://github.com/sportheroes/bk-standard-version/issues/29)
+* 🔄 [MOD] Update node version to 18 (#26) ([09e2ddd](https://github.com/sportheroes/bk-standard-version/commit/09e2ddd)), closes [#26](https://github.com/sportheroes/bk-standard-version/issues/26)
+* Bump the npm_and_yarn group across 1 directory with 4 updates (#27) ([d1ea046](https://github.com/sportheroes/bk-standard-version/commit/d1ea046)), closes [#27](https://github.com/sportheroes/bk-standard-version/issues/27)
 
 
 
