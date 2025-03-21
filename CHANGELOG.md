@@ -2,9 +2,9 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## <small>5.3.3 (2025-03-21)</small>
+## <small>5.3.4 (2025-03-21)</small>
 
-* 🔄 [MOD] Bump conventional-changelog ([ccec49b](https://github.com/sportheroes/bk-standard-version/commit/ccec49b))
+* 🔄 [MOD] Set config as peerDependencies ([15ca992](https://github.com/sportheroes/bk-standard-version/commit/15ca992))
 
 
 
