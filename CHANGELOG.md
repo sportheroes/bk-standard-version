@@ -2,11 +2,9 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## <small>5.3.2 (2025-03-21)</small>
+## <small>5.3.3 (2025-03-21)</small>
 
-* 🔄 [MOD] Bump Node 22 (#29) ([c29a707](https://github.com/sportheroes/bk-standard-version/commit/c29a707)), closes [#29](https://github.com/sportheroes/bk-standard-version/issues/29)
-* 🔄 [MOD] Update node version to 18 (#26) ([09e2ddd](https://github.com/sportheroes/bk-standard-version/commit/09e2ddd)), closes [#26](https://github.com/sportheroes/bk-standard-version/issues/26)
-* Bump the npm_and_yarn group across 1 directory with 4 updates (#27) ([d1ea046](https://github.com/sportheroes/bk-standard-version/commit/d1ea046)), closes [#27](https://github.com/sportheroes/bk-standard-version/issues/27)
+* 🔄 [MOD] Bump conventional-changelog ([ccec49b](https://github.com/sportheroes/bk-standard-version/commit/ccec49b))
 
 
 
