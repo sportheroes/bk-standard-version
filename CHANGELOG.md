@@ -2,9 +2,9 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## <small>5.3.4 (2025-03-21)</small>
+## <small>5.3.5 (2025-06-11)</small>
 
-* 🔄 [MOD] Set config as peerDependencies ([15ca992](https://github.com/sportheroes/bk-standard-version/commit/15ca992))
+* Bump the npm_and_yarn group with 2 updates (#28) ([adce889](https://github.com/sportheroes/bk-standard-version/commit/adce889)), closes [#28](https://github.com/sportheroes/bk-standard-version/issues/28)
 
 
 
