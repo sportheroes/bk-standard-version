@@ -2,9 +2,9 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## <small>5.3.5 (2025-06-11)</small>
+## <small>5.3.6 (2025-06-25)</small>
 
-* Bump the npm_and_yarn group with 2 updates (#28) ([adce889](https://github.com/sportheroes/bk-standard-version/commit/adce889)), closes [#28](https://github.com/sportheroes/bk-standard-version/issues/28)
+* Bump shelljs in the npm_and_yarn group across 1 directory (#30) ([b9fd9a8](https://github.com/sportheroes/bk-standard-version/commit/b9fd9a8)), closes [#30](https://github.com/sportheroes/bk-standard-version/issues/30)
 
 
 
