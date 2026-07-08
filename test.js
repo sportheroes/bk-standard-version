@@ -180,8 +180,8 @@ describe('cli', function () {
           var captured = shell.cat('gitcapture.log').stdout.split('\n').map(function (line) {
             return line ? JSON.parse(line) : line
           })
-          captured[captured.length - 3].should.deep.equal(['commit', '-S', 'CHANGELOG.md', 'package.json', '-m', '⏩ [PUB] (release) 1.0.1'])
-          captured[captured.length - 2].should.deep.equal(['tag', '-s', 'v1.0.1', '-m', '⏩ [PUB] (release) 1.0.1'])
+          captured[captured.length - 3].should.deep.equal(['commit', '-S', '-m', '⏩ [PUB] (release) 1.0.1', '-m', '[ci skip]', '--', 'CHANGELOG.md', 'package.json'])
+          captured[captured.length - 2].should.deep.equal(['tag', '-s', '-m', '⏩ [PUB] (release) 1.0.1', '--', 'v1.0.1'])
 
           unmock()
         })
