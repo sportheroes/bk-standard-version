@@ -19,7 +19,7 @@
     "url": "git+https://github.com/sportheroes/bk-standard-version.git"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "keywords": [
     "conventional-changelog",
